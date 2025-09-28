@@ -1,0 +1,52 @@
+{
+  "rentals": [
+    {
+      "id": "1758989843899",
+      "maker": "Seat",
+      "model": "Ibiza",
+      "days": 3,
+      "units": 1,
+      "createdAt": "9/27/2025, 6:17:23 PM"
+    },
+    {
+      "id": "1758990276297",
+      "maker": "Seat",
+      "model": "Ibiza",
+      "days": 3,
+      "units": 1,
+      "createdAt": "9/27/2025, 6:24:36 PM"
+    },
+    {
+      "id": "1758990278314",
+      "maker": "Toyota",
+      "model": "Corolla",
+      "days": 5,
+      "units": 2,
+      "createdAt": "9/27/2025, 6:24:38 PM"
+    },
+    {
+      "id": "1758990280330",
+      "maker": "Volkswagen",
+      "model": "Golf",
+      "days": 7,
+      "units": 1,
+      "createdAt": "9/27/2025, 6:24:40 PM"
+    },
+    {
+      "id": "1758990282346",
+      "maker": "Tesla",
+      "model": "Model 3",
+      "days": 2,
+      "units": 3,
+      "createdAt": "9/27/2025, 6:24:42 PM"
+    },
+    {
+      "id": "1758990284362",
+      "maker": "Renault",
+      "model": "Clio",
+      "days": 10,
+      "units": 1,
+      "createdAt": "9/27/2025, 6:24:44 PM"
+    }
+  ]
+}
