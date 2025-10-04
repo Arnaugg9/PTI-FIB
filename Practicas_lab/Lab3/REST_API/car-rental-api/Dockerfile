@@ -10,7 +10,6 @@ RUN npm install
 
 # Bundle app source	
 COPY server.js .
-COPY rentals.json .
 
 CMD [ "node", "server.js" ]
 
