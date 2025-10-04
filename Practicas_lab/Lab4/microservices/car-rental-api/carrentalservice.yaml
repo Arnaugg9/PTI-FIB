@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2025-10-04T12:55:17Z"
+  labels:
+    app: carrental
+  name: carrental
+  namespace: default
+  resourceVersion: "6026"
+  uid: c89af9d7-cfed-49a1-8f1b-babe0eca9da1
+spec:
+  clusterIP: 10.98.235.177
+  clusterIPs:
+  - 10.98.235.177
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 30799
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: carrental
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}
