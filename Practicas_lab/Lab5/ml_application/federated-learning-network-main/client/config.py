@@ -2,7 +2,7 @@ from os import environ
 
 DEFAULT_SERVER_URL = 'http://127.0.0.1:5000'
 
-USE_TRAINED_MODEL = False # False: start training from scratch. True: use previously trained model
+USE_TRAINED_MODEL = True # False: start training from scratch. True: use previously trained model
 
 PRETRAINED_MODEL_PATH = '/keras_model_trained'
 #PRETRAINED_MODEL_PATH = '<absolute_path>/keras_model'
